@@ -1,0 +1,5 @@
+<map id="Evento::setDia" name="Evento::setDia">
+<area shape="rect" id="Node000001" title="Establece un nuevo día para el evento." alt="" coords="173,5,291,31"/>
+<area shape="rect" id="Node000002" href="$classEvento.html#a6cd9d3560eb5c2012f0ad02fa70562c4" title="Constructor por parámetros." alt="" coords="5,5,125,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="160,21,125,21,125,15,160,15"/>
+</map>

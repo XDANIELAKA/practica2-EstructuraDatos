@@ -1,0 +1,47 @@
+#---------------------------------------------------------------------------
+# Doxyfile para el proyecto Gestor de Agenda de Eventos
+#---------------------------------------------------------------------------
+
+PROJECT_NAME           = "Gestor de Agenda de Eventos"
+PROJECT_NUMBER         = "1.0"
+PROJECT_BRIEF          = "Implementación de los TDAs Evento y AgendaEventos"
+
+# IMPORTANTE: este Doxyfile se ejecuta desde la RAÍZ del proyecto
+# porque el Makefile llama a: doxygen doc/Doxyfile
+
+# Carpeta donde se genera la documentación (desde la raíz)
+OUTPUT_DIRECTORY       = doc
+
+OUTPUT_LANGUAGE        = Spanish
+
+# Archivos que se van a analizar (rutas desde la raíz)
+INPUT                  = include src
+FILE_PATTERNS          = *.h *.cpp
+RECURSIVE              = YES
+
+# Extraer toda la documentación
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+
+# Crear documentación HTML dentro de doc/html
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+
+# No generar LaTeX
+GENERATE_LATEX         = NO
+
+# Activar diagramas (Graphviz)
+HAVE_DOT               = YES
+DOT_GRAPH_MAX_NODES    = 200
+CLASS_DIAGRAMS         = YES
+CALL_GRAPH             = YES
+CALLER_GRAPH           = YES
+
+# Mostrar advertencias e información útil
+WARNINGS               = YES
+SHOW_USED_FILES        = YES
+
+SORT_MEMBER_DOCS       = YES
+SORT_BRIEF_DOCS        = YES
+SORT_BY_SCOPE_NAME     = YES

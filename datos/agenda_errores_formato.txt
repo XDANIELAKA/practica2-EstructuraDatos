@@ -1,0 +1,10 @@
+Clase correcta,1,9.0,11.0
+
+Evento sin día,,9.0,10.0               # Falta el día
+Evento sin comas 1 9.0 10.0            # No hay comas
+
+Evento con día inválido,9,10.0,12.0    # Día 9 no existe
+Evento con horas invertidas,2,14.0,12.0 # hora_inicio > hora_fin
+Evento con hora inválida,3,25.0,26.0    # fuera de rango
+Evento con texto en hora,3,abc,14.0     # no convierte
+Evento con texto en día,xyz,9.0,10.0    # día inválido

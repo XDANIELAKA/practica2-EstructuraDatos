@@ -1,0 +1,8 @@
+<map id="AgendaEventos::buscarPorDia" name="AgendaEventos::buscarPorDia">
+<area shape="rect" id="Node000001" title="Búsqueda por día de la semana." alt="" coords="387,5,604,31"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="373,17,108,17,60,19,60,14,108,11,373,12"/>
+<area shape="rect" id="Node000003" href="$classAgendaEventos.html#a5748a15cb53592ce5498d93b03b81cac" title="Muestra las franjas horarias libres de un día." alt="" coords="108,26,339,66"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="373,33,339,37,338,31,373,28"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="94,30,60,25,60,19,95,24"/>
+</map>

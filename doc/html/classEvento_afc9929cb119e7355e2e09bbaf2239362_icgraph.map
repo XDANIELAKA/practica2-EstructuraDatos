@@ -1,0 +1,14 @@
+<map id="Evento::getHoraInicio" name="Evento::getHoraInicio">
+<area shape="rect" id="Node000001" title=" " alt="" coords="680,77,843,103"/>
+<area shape="rect" id="Node000002" href="$classAgendaEventos.html#a7d2a3db62cf9634f777450ae437209e3" title="Inserta un evento manteniendo orden por (día, hora_inicio)." alt="" coords="388,48,632,73"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="666,82,619,76,619,71,667,76"/>
+<area shape="rect" id="Node000006" href="$classAgendaEventos.html#a5748a15cb53592ce5498d93b03b81cac" title="Muestra las franjas horarias libres de un día." alt="" coords="395,98,625,138"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="667,103,626,108,625,102,666,98"/>
+<area shape="rect" id="Node000003" href="$classAgendaEventos.html#a888f6abbf11f32fc12a3057a7f198371" title="Constructor desde fichero." alt="" coords="108,5,340,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="411,49,309,33,310,28,411,43"/>
+<area shape="rect" id="Node000004" href="$classAgendaEventos.html#a57e0834742ce83da6f37b9904642f0ea" title="Añade un evento a la agenda." alt="" coords="115,55,333,80"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="374,67,333,67,333,62,374,61"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,80,60,105"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="115,85,60,92,60,87,114,79"/>
+<area shape="poly" id="edge6_Node000006_Node000005" title=" " alt="" coords="381,114,60,97,60,91,381,109"/>
+</map>

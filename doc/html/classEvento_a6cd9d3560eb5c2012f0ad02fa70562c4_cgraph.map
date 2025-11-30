@@ -1,0 +1,7 @@
+<map id="Evento::Evento" name="Evento::Evento">
+<area shape="rect" id="Node000001" title="Constructor por parámetros." alt="" coords="5,31,125,56"/>
+<area shape="rect" id="Node000002" href="$classEvento.html#a02f2561782650568c856f6531e9b9c96" title="Establece un nuevo día para el evento." alt="" coords="206,5,323,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="125,33,192,24,193,30,126,38"/>
+<area shape="rect" id="Node000003" href="$classEvento.html#aa85db6f799f4d4a69762a06570d873bb" title="Cambia la franja horaria del evento." alt="" coords="173,55,356,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="126,48,160,52,159,57,125,53"/>
+</map>

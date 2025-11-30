@@ -1,0 +1,9 @@
+<map id="AgendaEventos::mostrarHuecosLibresDia" name="AgendaEventos::mostrarHuecosLibresDia">
+<area shape="rect" id="Node000001" title="Muestra las franjas horarias libres de un día." alt="" coords="5,47,236,87"/>
+<area shape="rect" id="Node000002" href="$classAgendaEventos.html#af2cca27f62a28a28ed8a3a2c6166c33f" title="Búsqueda por día de la semana." alt="" coords="284,5,501,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="231,45,308,30,309,36,232,50"/>
+<area shape="rect" id="Node000003" href="$classEvento.html#a26d23d8045fa01c46903b71fca42e499" title=" " alt="" coords="319,55,466,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="236,65,306,65,306,70,236,70"/>
+<area shape="rect" id="Node000004" href="$classEvento.html#afc9929cb119e7355e2e09bbaf2239362" title=" " alt="" coords="311,104,474,129"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="232,85,309,99,308,104,231,90"/>
+</map>

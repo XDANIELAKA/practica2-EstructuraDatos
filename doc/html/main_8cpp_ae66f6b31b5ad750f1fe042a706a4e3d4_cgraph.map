@@ -1,0 +1,39 @@
+<map id="main" name="main">
+<area shape="rect" id="Node000001" title=" " alt="" coords="5,260,60,285"/>
+<area shape="rect" id="Node000002" href="$classAgendaEventos.html#a57e0834742ce83da6f37b9904642f0ea" title="Añade un evento a la agenda." alt="" coords="130,5,347,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="32,260,35,219,45,162,68,101,85,73,106,48,126,34,129,39,110,52,89,76,72,103,51,163,40,220,37,260"/>
+<area shape="rect" id="Node000009" href="$classAgendaEventos.html#af2cca27f62a28a28ed8a3a2c6166c33f" title="Búsqueda por día de la semana." alt="" coords="431,280,648,305"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="32,259,37,224,48,178,70,130,86,109,106,92,141,71,174,57,205,50,235,49,266,53,298,62,371,92,520,267,516,271,368,96,297,67,265,58,235,54,206,55,176,62,144,76,110,96,90,113,75,133,53,179,42,225,37,260"/>
+<area shape="rect" id="Node000010" href="$classAgendaEventos.html#a9100efdfbf0295b0bb1015e2bec88b48" title="Búsqueda exacta por nombre." alt="" coords="141,106,336,146"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="36,259,61,208,81,180,106,156,127,144,130,148,110,160,85,183,65,211,41,261"/>
+<area shape="rect" id="Node000011" href="$classAgendaEventos.html#a40e4724e019b54aaada6cfd9e00d4c8e" title="Elimina el primer evento cuyo nombre coincide exactamente." alt="" coords="123,170,354,210"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="48,257,74,238,107,220,126,212,128,217,109,224,77,242,51,262"/>
+<area shape="rect" id="Node000012" href="$classAgendaEventos.html#a09eaada608ab9146c24a77e6d30658c6" title="Comprueba si existe algún solapamiento en toda la agenda." alt="" coords="108,235,369,260"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="60,267,121,259,122,264,60,272"/>
+<area shape="rect" id="Node000013" href="$classAgendaEventos.html#a8620119c662dadbe011a15fcea4c5ea3" title="Acceso de solo lectura al evento i&#45;ésimo." alt="" coords="140,284,337,309"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="60,273,127,281,126,286,60,278"/>
+<area shape="rect" id="Node000014" href="$main_8cpp.html#a84d90b48f5257a7f84c8fefb71a1ed5f" title=" " alt="" coords="179,333,298,359"/>
+<area shape="poly" id="edge13_Node000001_Node000014" title=" " alt="" coords="52,283,78,302,109,318,166,334,165,340,107,323,75,306,49,288"/>
+<area shape="rect" id="Node000015" href="$classAgendaEventos.html#a8c4bcb0391615088197f4aed179c426d" title="Muestra todos los eventos almacenados." alt="" coords="147,383,330,408"/>
+<area shape="poly" id="edge14_Node000001_Node000015" title=" " alt="" coords="42,284,67,326,86,349,109,368,135,380,133,385,107,372,83,353,63,329,38,287"/>
+<area shape="rect" id="Node000016" href="$classAgendaEventos.html#a5748a15cb53592ce5498d93b03b81cac" title="Muestra las franjas horarias libres de un día." alt="" coords="123,433,354,473"/>
+<area shape="poly" id="edge15_Node000001_Node000016" title=" " alt="" coords="39,285,47,313,60,349,81,387,110,419,116,423,113,428,106,423,77,390,56,352,42,315,34,286"/>
+<area shape="rect" id="Node000018" href="$main_8cpp.html#ac0aca0f34a52fbe7527a03517bc3347e" title=" " alt="" coords="184,497,293,523"/>
+<area shape="poly" id="edge19_Node000001_Node000018" title=" " alt="" coords="37,285,40,324,51,378,73,435,89,461,110,483,138,499,171,507,169,512,136,504,106,487,85,464,68,437,46,380,35,325,32,286"/>
+<area shape="rect" id="Node000003" href="$classEvento.html#aa288bf2788b4906e2704c6acbfc1effa" title=" " alt="" coords="465,5,613,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="348,15,451,15,451,21,348,21"/>
+<area shape="rect" id="Node000004" href="$classAgendaEventos.html#a7d2a3db62cf9634f777450ae437209e3" title="Inserta un evento manteniendo orden por (día, hora_inicio)." alt="" coords="417,113,661,139"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="302,28,370,47,441,76,503,105,500,110,439,81,368,53,300,33"/>
+<area shape="rect" id="Node000005" href="$classEvento.html#ada9e824d608a68594b316d74f6d0ea84" title=" " alt="" coords="785,64,904,89"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="618,111,772,86,772,91,619,116"/>
+<area shape="rect" id="Node000006" href="$classEvento.html#afc9929cb119e7355e2e09bbaf2239362" title=" " alt="" coords="763,271,926,296"/>
+<area shape="poly" id="edge5_Node000004_Node000006" title=" " alt="" coords="567,137,808,262,805,267,564,141"/>
+<area shape="rect" id="Node000007" href="$classAgendaEventos.html#aa64091f3d362212744cc7fc0ac17e2c0" title="Comprueba si un evento se solapa con alguno ya almacenado." alt="" coords="709,113,980,139"/>
+<area shape="poly" id="edge6_Node000004_Node000007" title=" " alt="" coords="662,123,696,123,696,129,662,129"/>
+<area shape="rect" id="Node000008" href="$classAgendaEventos.html#a70db1c138d34b61bd22f79574946dbf4" title="Reserva un nuevo tamaño de almacenamiento." alt="" coords="752,163,937,188"/>
+<area shape="poly" id="edge7_Node000004_Node000008" title=" " alt="" coords="619,136,752,158,751,163,618,141"/>
+<area shape="poly" id="edge18_Node000016_Node000006" title=" " alt="" coords="322,430,369,418,603,352,788,297,790,302,604,357,370,423,324,435"/>
+<area shape="poly" id="edge16_Node000016_Node000009" title=" " alt="" coords="346,430,368,419,384,403,392,387,400,370,416,352,452,327,489,308,491,313,454,332,419,356,405,373,397,390,388,407,371,423,349,435"/>
+<area shape="rect" id="Node000017" href="$classEvento.html#a26d23d8045fa01c46903b71fca42e499" title=" " alt="" coords="466,440,613,465"/>
+<area shape="poly" id="edge17_Node000016_Node000017" title=" " alt="" coords="354,450,452,450,452,455,354,455"/>
+</map>

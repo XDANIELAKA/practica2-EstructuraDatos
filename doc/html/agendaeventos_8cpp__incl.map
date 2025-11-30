@@ -1,0 +1,19 @@
+<map id="/home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/src/agendaeventos.cpp" name="/home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/src/agendaeventos.cpp">
+<area shape="rect" id="Node000001" title="Implementación del T.D.A. AgendaEventos." alt="" coords="151,5,366,75"/>
+<area shape="rect" id="Node000002" href="$agendaeventos_8h.html" title="Declaración del T.D.A. AgendaEventos Gestión dinámica y ordenada de eventos sin solapamientos." alt="" coords="14,123,149,148"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="196,77,117,118,114,114,193,72"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="173,123,246,148"/>
+<area shape="poly" id="edge7_Node000001_Node000006" title=" " alt="" coords="243,76,224,112,220,109,239,74"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="271,123,345,148"/>
+<area shape="poly" id="edge8_Node000001_Node000007" title=" " alt="" coords="279,74,298,109,293,112,274,76"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="369,123,439,148"/>
+<area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="313,73,376,113,373,117,310,77"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,269,64,295"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="69,150,48,170,32,197,27,227,30,256,25,256,22,227,27,195,44,167,65,146"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="103,269,183,295"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="97,146,118,167,136,195,144,226,146,255,141,256,139,227,131,197,114,171,94,150"/>
+<area shape="rect" id="Node000005" href="$evento_8h.html" title="Declaración del T.D.A. Evento Representa un evento académico con nombre, día y franja horaria." alt="" coords="42,196,121,221"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="84,148,84,182,79,182,79,148"/>
+<area shape="poly" id="edge5_Node000005_Node000003" title=" " alt="" coords="76,223,52,259,48,256,71,220"/>
+<area shape="poly" id="edge6_Node000005_Node000004" title=" " alt="" coords="93,220,126,257,122,261,89,223"/>
+</map>

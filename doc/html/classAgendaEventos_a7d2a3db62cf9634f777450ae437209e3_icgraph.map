@@ -1,0 +1,9 @@
+<map id="AgendaEventos::insertarOrdenado" name="AgendaEventos::insertarOrdenado">
+<area shape="rect" id="Node000001" title="Inserta un evento manteniendo orden por (día, hora_inicio)." alt="" coords="388,31,632,56"/>
+<area shape="rect" id="Node000002" href="$classAgendaEventos.html#a888f6abbf11f32fc12a3057a7f198371" title="Constructor desde fichero." alt="" coords="108,5,340,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="374,34,340,31,340,26,375,29"/>
+<area shape="rect" id="Node000003" href="$classAgendaEventos.html#a57e0834742ce83da6f37b9904642f0ea" title="Añade un evento a la agenda." alt="" coords="115,55,333,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="375,57,333,61,333,56,374,52"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,55,60,80"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="101,70,60,70,60,65,101,65"/>
+</map>

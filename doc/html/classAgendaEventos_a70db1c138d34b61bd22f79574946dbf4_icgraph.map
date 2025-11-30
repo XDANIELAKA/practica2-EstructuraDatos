@@ -1,0 +1,15 @@
+<map id="AgendaEventos::reservar" name="AgendaEventos::reservar">
+<area shape="rect" id="Node000001" title="Reserva un nuevo tamaño de almacenamiento." alt="" coords="680,55,865,80"/>
+<area shape="rect" id="Node000002" href="$classAgendaEventos.html#ae5d1bfcc87f3fbc4d8d96f1c55947278" title="Constructor de copia." alt="" coords="394,5,626,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="690,55,578,33,579,28,691,49"/>
+<area shape="rect" id="Node000003" href="$classAgendaEventos.html#a7d2a3db62cf9634f777450ae437209e3" title="Inserta un evento manteniendo orden por (día, hora_inicio)." alt="" coords="388,55,632,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="666,70,632,70,632,65,666,65"/>
+<area shape="rect" id="Node000007" href="$classAgendaEventos.html#a23b839ea8af643556826926c2b8b9c5c" title="Operador de asignación." alt="" coords="411,104,609,129"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="691,85,579,107,578,101,690,80"/>
+<area shape="rect" id="Node000004" href="$classAgendaEventos.html#a888f6abbf11f32fc12a3057a7f198371" title="Constructor desde fichero." alt="" coords="108,31,340,56"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="374,59,340,56,340,50,375,53"/>
+<area shape="rect" id="Node000005" href="$classAgendaEventos.html#a57e0834742ce83da6f37b9904642f0ea" title="Añade un evento a la agenda." alt="" coords="115,80,333,105"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="375,82,333,86,333,80,374,77"/>
+<area shape="rect" id="Node000006" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,80,60,105"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="101,95,60,95,60,90,101,90"/>
+</map>

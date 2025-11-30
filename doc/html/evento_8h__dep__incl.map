@@ -1,0 +1,11 @@
+<map id="/home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/include/evento.h" name="/home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/include/evento.h">
+<area shape="rect" id="Node000001" title="Declaración del T.D.A. Evento Representa un evento académico con nombre, día y franja horaria." alt="" coords="243,5,457,75"/>
+<area shape="rect" id="Node000002" href="$agendaeventos_8h.html" title="Declaración del T.D.A. AgendaEventos Gestión dinámica y ordenada de eventos sin solapamientos." alt="" coords="124,123,339,192"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="307,86,268,124,264,121,303,83"/>
+<area shape="rect" id="Node000005" href="$evento_8cpp.html" title="Implementación del T.D.A. Evento." alt="" coords="363,123,577,192"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="397,83,437,121,433,124,393,86"/>
+<area shape="rect" id="Node000003" href="$agendaeventos_8cpp.html" title="Implementación del T.D.A. AgendaEventos." alt="" coords="5,240,220,309"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="189,204,149,242,146,238,185,200"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title="Programa principal para probar el T.D.A. AgendaEventos." alt="" coords="244,240,459,309"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="278,200,318,238,314,242,275,204"/>
+</map>

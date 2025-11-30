@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gestor de Agenda de Eventos: Archivo de código fuente /home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/include/evento.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gestor de Agenda de Eventos<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Implementación de los TDAs Evento y AgendaEventos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">evento.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="evento_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span><span class="preprocessor">#ifndef EVENTO_H</span></div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span><span class="preprocessor">#define EVENTO_H</span></div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span><span class="preprocessor">#include &lt;string&gt;</span></div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span><span class="preprocessor">#include &lt;iostream&gt;</span></div>
+<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="foldopen" id="foldopen00048" data-start="{" data-end="};">
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno"><a class="line" href="classEvento.html">   48</a></span><span class="keyword">class </span><a class="code hl_class" href="classEvento.html">Evento</a> {</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span><span class="keyword">private</span>:</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno"><a class="line" href="classEvento.html#a9d0b969f100d5b94d42625dadb208214">   51</a></span>    <span class="keywordtype">string</span> <a class="code hl_variable" href="classEvento.html#a9d0b969f100d5b94d42625dadb208214">nombre</a>;       </div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno"><a class="line" href="classEvento.html#a29fdd2b29bc6f097b01843d615fb0f27">   52</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="classEvento.html#a29fdd2b29bc6f097b01843d615fb0f27">dia</a>;             </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classEvento.html#a0a8210c0a925fe9d3e3fa5a43da5d7b8">   53</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="classEvento.html#a0a8210c0a925fe9d3e3fa5a43da5d7b8">hora_inicio</a>;  </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno"><a class="line" href="classEvento.html#a04b8eb2f071f13d1704e74ffa668b715">   54</a></span>    <span class="keywordtype">double</span> <a class="code hl_variable" href="classEvento.html#a04b8eb2f071f13d1704e74ffa668b715">hora_fin</a>;     </div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span> </div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>    <span class="comment">// ============================================================</span></div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    <span class="comment">//                     CONSTRUCTORES / DESTRUCTOR</span></div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>    <span class="comment">// ============================================================</span></div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span> </div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>    <a class="code hl_function" href="classEvento.html#a7aba3bd7a832c5365ea0ccb318511452">Evento</a>();</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span> </div>
+<div class="line"><a id="l00082" name="l00082"></a><span class="lineno">   82</span>    <a class="code hl_function" href="classEvento.html#a7aba3bd7a832c5365ea0ccb318511452">Evento</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp;<a class="code hl_variable" href="classEvento.html#a9d0b969f100d5b94d42625dadb208214">nombre</a>, <span class="keywordtype">int</span> <a class="code hl_variable" href="classEvento.html#a29fdd2b29bc6f097b01843d615fb0f27">dia</a>,</div>
+<div class="line"><a id="l00083" name="l00083"></a><span class="lineno">   83</span>           <span class="keywordtype">double</span> <a class="code hl_variable" href="classEvento.html#a0a8210c0a925fe9d3e3fa5a43da5d7b8">hora_inicio</a>, <span class="keywordtype">double</span> <a class="code hl_variable" href="classEvento.html#a04b8eb2f071f13d1704e74ffa668b715">hora_fin</a>);</div>
+<div class="line"><a id="l00084" name="l00084"></a><span class="lineno">   84</span> </div>
+<div class="line"><a id="l00086" name="l00086"></a><span class="lineno"><a class="line" href="classEvento.html#aeb7b2a3880459d2018bb1a85995438ac">   86</a></span>    <a class="code hl_function" href="classEvento.html#aeb7b2a3880459d2018bb1a85995438ac">Evento</a>(<span class="keyword">const</span> <a class="code hl_class" href="classEvento.html">Evento</a> &amp;otro) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00087" name="l00087"></a><span class="lineno">   87</span> </div>
+<div class="line"><a id="l00089" name="l00089"></a><span class="lineno"><a class="line" href="classEvento.html#a05d825c94b0389df1d8bf8f03d08de03">   89</a></span>    <a class="code hl_class" href="classEvento.html">Evento</a> &amp; <a class="code hl_function" href="classEvento.html#a05d825c94b0389df1d8bf8f03d08de03">operator=</a>(<span class="keyword">const</span> <a class="code hl_class" href="classEvento.html">Evento</a> &amp;otro) = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00090" name="l00090"></a><span class="lineno">   90</span> </div>
+<div class="line"><a id="l00092" name="l00092"></a><span class="lineno"><a class="line" href="classEvento.html#aad242acdd1ab98e71a1e131c3b268e43">   92</a></span>    <a class="code hl_function" href="classEvento.html#aad242acdd1ab98e71a1e131c3b268e43">~Evento</a>() = <span class="keywordflow">default</span>;</div>
+<div class="line"><a id="l00093" name="l00093"></a><span class="lineno">   93</span> </div>
+<div class="line"><a id="l00094" name="l00094"></a><span class="lineno">   94</span> </div>
+<div class="line"><a id="l00095" name="l00095"></a><span class="lineno">   95</span>    <span class="comment">// ============================================================</span></div>
+<div class="line"><a id="l00096" name="l00096"></a><span class="lineno">   96</span>    <span class="comment">//                     OPERACIONES FUNDAMENTALES</span></div>
+<div class="line"><a id="l00097" name="l00097"></a><span class="lineno">   97</span>    <span class="comment">// ============================================================</span></div>
+<div class="line"><a id="l00098" name="l00098"></a><span class="lineno">   98</span> </div>
+<div class="line"><a id="l00100" name="l00100"></a><span class="lineno">  100</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="classEvento.html#aa288bf2788b4906e2704c6acbfc1effa">getNombre</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00101" name="l00101"></a><span class="lineno">  101</span> </div>
+<div class="line"><a id="l00103" name="l00103"></a><span class="lineno">  103</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classEvento.html#ada9e824d608a68594b316d74f6d0ea84">getDia</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00104" name="l00104"></a><span class="lineno">  104</span> </div>
+<div class="line"><a id="l00106" name="l00106"></a><span class="lineno">  106</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="classEvento.html#afc9929cb119e7355e2e09bbaf2239362">getHoraInicio</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00107" name="l00107"></a><span class="lineno">  107</span> </div>
+<div class="line"><a id="l00109" name="l00109"></a><span class="lineno">  109</span>    <span class="keywordtype">double</span> <a class="code hl_function" href="classEvento.html#a26d23d8045fa01c46903b71fca42e499">getHoraFin</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00110" name="l00110"></a><span class="lineno">  110</span> </div>
+<div class="line"><a id="l00112" name="l00112"></a><span class="lineno">  112</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classEvento.html#aea9629eeeb3e40ec6f19c265afe2bd8e">setNombre</a>(<span class="keyword">const</span> <span class="keywordtype">string</span> &amp;n);</div>
+<div class="line"><a id="l00113" name="l00113"></a><span class="lineno">  113</span> </div>
+<div class="line"><a id="l00119" name="l00119"></a><span class="lineno">  119</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classEvento.html#a02f2561782650568c856f6531e9b9c96">setDia</a>(<span class="keywordtype">int</span> d);</div>
+<div class="line"><a id="l00120" name="l00120"></a><span class="lineno">  120</span> </div>
+<div class="line"><a id="l00128" name="l00128"></a><span class="lineno">  128</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classEvento.html#aa85db6f799f4d4a69762a06570d873bb">setFranjaHoraria</a>(<span class="keywordtype">double</span> inicio, <span class="keywordtype">double</span> fin);</div>
+<div class="line"><a id="l00129" name="l00129"></a><span class="lineno">  129</span> </div>
+<div class="line"><a id="l00130" name="l00130"></a><span class="lineno">  130</span> </div>
+<div class="line"><a id="l00131" name="l00131"></a><span class="lineno">  131</span>    <span class="comment">// ============================================================</span></div>
+<div class="line"><a id="l00132" name="l00132"></a><span class="lineno">  132</span>    <span class="comment">//                     LÓGICA DEL TDA (NO FUNDAMENTALES)</span></div>
+<div class="line"><a id="l00133" name="l00133"></a><span class="lineno">  133</span>    <span class="comment">// ============================================================</span></div>
+<div class="line"><a id="l00134" name="l00134"></a><span class="lineno">  134</span> </div>
+<div class="line"><a id="l00145" name="l00145"></a><span class="lineno">  145</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classEvento.html#ae9d9f02305083f2a2d8bf2bd5658243d">seSolapaCon</a>(<span class="keyword">const</span> <a class="code hl_class" href="classEvento.html">Evento</a> &amp;otro) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00146" name="l00146"></a><span class="lineno">  146</span> </div>
+<div class="line"><a id="l00154" name="l00154"></a><span class="lineno">  154</span>    <span class="keywordtype">int</span> <a class="code hl_function" href="classEvento.html#a38fbd0059d5553fdc8a61e1e95188196">compararPorNombre</a>(<span class="keyword">const</span> <a class="code hl_class" href="classEvento.html">Evento</a> &amp;otro) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00155" name="l00155"></a><span class="lineno">  155</span> </div>
+<div class="line"><a id="l00159" name="l00159"></a><span class="lineno">  159</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="classEvento.html#a1d6d3bf5e598a0cbe90c9fee1f6a2c6c">escribir</a>(ostream &amp;os) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00160" name="l00160"></a><span class="lineno">  160</span>};</div>
+</div>
+<div class="line"><a id="l00161" name="l00161"></a><span class="lineno">  161</span> </div>
+<div class="line"><a id="l00165" name="l00165"></a><span class="lineno">  165</span>ostream &amp; <a class="code hl_function" href="evento_8h.html#a2ecf69005a1a79fb2143a9bd8b666a2a">operator&lt;&lt;</a>(ostream &amp;os, <span class="keyword">const</span> <a class="code hl_class" href="classEvento.html">Evento</a> &amp;e);</div>
+<div class="line"><a id="l00166" name="l00166"></a><span class="lineno">  166</span> </div>
+<div class="line"><a id="l00167" name="l00167"></a><span class="lineno">  167</span><span class="preprocessor">#endif </span><span class="comment">// EVENTO_H</span></div>
+<div class="ttc" id="aclassEvento_html"><div class="ttname"><a href="classEvento.html">Evento</a></div><div class="ttdoc">T.D.A. Evento.</div><div class="ttdef"><b>Definition</b> evento.h:48</div></div>
+<div class="ttc" id="aclassEvento_html_a02f2561782650568c856f6531e9b9c96"><div class="ttname"><a href="classEvento.html#a02f2561782650568c856f6531e9b9c96">Evento::setDia</a></div><div class="ttdeci">bool setDia(int d)</div><div class="ttdoc">Establece un nuevo día para el evento.</div><div class="ttdef"><b>Definition</b> evento.cpp:57</div></div>
+<div class="ttc" id="aclassEvento_html_a04b8eb2f071f13d1704e74ffa668b715"><div class="ttname"><a href="classEvento.html#a04b8eb2f071f13d1704e74ffa668b715">Evento::hora_fin</a></div><div class="ttdeci">double hora_fin</div><div class="ttdoc">Hora de fin (en formato decimal)</div><div class="ttdef"><b>Definition</b> evento.h:54</div></div>
+<div class="ttc" id="aclassEvento_html_a05d825c94b0389df1d8bf8f03d08de03"><div class="ttname"><a href="classEvento.html#a05d825c94b0389df1d8bf8f03d08de03">Evento::operator=</a></div><div class="ttdeci">Evento &amp; operator=(const Evento &amp;otro)=default</div><div class="ttdoc">Operador de asignación (generado automáticamente)</div></div>
+<div class="ttc" id="aclassEvento_html_a0a8210c0a925fe9d3e3fa5a43da5d7b8"><div class="ttname"><a href="classEvento.html#a0a8210c0a925fe9d3e3fa5a43da5d7b8">Evento::hora_inicio</a></div><div class="ttdeci">double hora_inicio</div><div class="ttdoc">Hora de inicio (en formato decimal)</div><div class="ttdef"><b>Definition</b> evento.h:53</div></div>
+<div class="ttc" id="aclassEvento_html_a1d6d3bf5e598a0cbe90c9fee1f6a2c6c"><div class="ttname"><a href="classEvento.html#a1d6d3bf5e598a0cbe90c9fee1f6a2c6c">Evento::escribir</a></div><div class="ttdeci">void escribir(ostream &amp;os) const</div><div class="ttdoc">Escribe toda la información del evento en un flujo.</div><div class="ttdef"><b>Definition</b> evento.cpp:93</div></div>
+<div class="ttc" id="aclassEvento_html_a26d23d8045fa01c46903b71fca42e499"><div class="ttname"><a href="classEvento.html#a26d23d8045fa01c46903b71fca42e499">Evento::getHoraFin</a></div><div class="ttdeci">double getHoraFin() const</div><div class="ttdef"><b>Definition</b> evento.cpp:45</div></div>
+<div class="ttc" id="aclassEvento_html_a29fdd2b29bc6f097b01843d615fb0f27"><div class="ttname"><a href="classEvento.html#a29fdd2b29bc6f097b01843d615fb0f27">Evento::dia</a></div><div class="ttdeci">int dia</div><div class="ttdoc">Día de la semana (1=lunes ... 7=domingo)</div><div class="ttdef"><b>Definition</b> evento.h:52</div></div>
+<div class="ttc" id="aclassEvento_html_a38fbd0059d5553fdc8a61e1e95188196"><div class="ttname"><a href="classEvento.html#a38fbd0059d5553fdc8a61e1e95188196">Evento::compararPorNombre</a></div><div class="ttdeci">int compararPorNombre(const Evento &amp;otro) const</div><div class="ttdoc">Comparación lexicográfica por nombre.</div><div class="ttdef"><b>Definition</b> evento.cpp:89</div></div>
+<div class="ttc" id="aclassEvento_html_a7aba3bd7a832c5365ea0ccb318511452"><div class="ttname"><a href="classEvento.html#a7aba3bd7a832c5365ea0ccb318511452">Evento::Evento</a></div><div class="ttdeci">Evento()</div><div class="ttdoc">Constructor por defecto.</div><div class="ttdef"><b>Definition</b> evento.cpp:15</div></div>
+<div class="ttc" id="aclassEvento_html_a9d0b969f100d5b94d42625dadb208214"><div class="ttname"><a href="classEvento.html#a9d0b969f100d5b94d42625dadb208214">Evento::nombre</a></div><div class="ttdeci">string nombre</div><div class="ttdoc">Nombre del evento.</div><div class="ttdef"><b>Definition</b> evento.h:51</div></div>
+<div class="ttc" id="aclassEvento_html_aa288bf2788b4906e2704c6acbfc1effa"><div class="ttname"><a href="classEvento.html#aa288bf2788b4906e2704c6acbfc1effa">Evento::getNombre</a></div><div class="ttdeci">string getNombre() const</div><div class="ttdef"><b>Definition</b> evento.cpp:33</div></div>
+<div class="ttc" id="aclassEvento_html_aa85db6f799f4d4a69762a06570d873bb"><div class="ttname"><a href="classEvento.html#aa85db6f799f4d4a69762a06570d873bb">Evento::setFranjaHoraria</a></div><div class="ttdeci">bool setFranjaHoraria(double inicio, double fin)</div><div class="ttdoc">Cambia la franja horaria del evento.</div><div class="ttdef"><b>Definition</b> evento.cpp:65</div></div>
+<div class="ttc" id="aclassEvento_html_aad242acdd1ab98e71a1e131c3b268e43"><div class="ttname"><a href="classEvento.html#aad242acdd1ab98e71a1e131c3b268e43">Evento::~Evento</a></div><div class="ttdeci">~Evento()=default</div><div class="ttdoc">Destructor.</div></div>
+<div class="ttc" id="aclassEvento_html_ada9e824d608a68594b316d74f6d0ea84"><div class="ttname"><a href="classEvento.html#ada9e824d608a68594b316d74f6d0ea84">Evento::getDia</a></div><div class="ttdeci">int getDia() const</div><div class="ttdef"><b>Definition</b> evento.cpp:37</div></div>
+<div class="ttc" id="aclassEvento_html_ae9d9f02305083f2a2d8bf2bd5658243d"><div class="ttname"><a href="classEvento.html#ae9d9f02305083f2a2d8bf2bd5658243d">Evento::seSolapaCon</a></div><div class="ttdeci">bool seSolapaCon(const Evento &amp;otro) const</div><div class="ttdoc">Comprueba si dos eventos se solapan.</div><div class="ttdef"><b>Definition</b> evento.cpp:78</div></div>
+<div class="ttc" id="aclassEvento_html_aea9629eeeb3e40ec6f19c265afe2bd8e"><div class="ttname"><a href="classEvento.html#aea9629eeeb3e40ec6f19c265afe2bd8e">Evento::setNombre</a></div><div class="ttdeci">void setNombre(const string &amp;n)</div><div class="ttdoc">Cambia el nombre del evento.</div><div class="ttdef"><b>Definition</b> evento.cpp:53</div></div>
+<div class="ttc" id="aclassEvento_html_aeb7b2a3880459d2018bb1a85995438ac"><div class="ttname"><a href="classEvento.html#aeb7b2a3880459d2018bb1a85995438ac">Evento::Evento</a></div><div class="ttdeci">Evento(const Evento &amp;otro)=default</div><div class="ttdoc">Constructor de copia (generado automáticamente)</div></div>
+<div class="ttc" id="aclassEvento_html_afc9929cb119e7355e2e09bbaf2239362"><div class="ttname"><a href="classEvento.html#afc9929cb119e7355e2e09bbaf2239362">Evento::getHoraInicio</a></div><div class="ttdeci">double getHoraInicio() const</div><div class="ttdef"><b>Definition</b> evento.cpp:41</div></div>
+<div class="ttc" id="aevento_8h_html_a2ecf69005a1a79fb2143a9bd8b666a2a"><div class="ttname"><a href="evento_8h.html#a2ecf69005a1a79fb2143a9bd8b666a2a">operator&lt;&lt;</a></div><div class="ttdeci">ostream &amp; operator&lt;&lt;(ostream &amp;os, const Evento &amp;e)</div><div class="ttdoc">Operador de salida para imprimir un evento.</div><div class="ttdef"><b>Definition</b> evento.cpp:110</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>

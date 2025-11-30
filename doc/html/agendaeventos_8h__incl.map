@@ -1,0 +1,11 @@
+<map id="/home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/include/agendaeventos.h" name="/home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/include/agendaeventos.h">
+<area shape="rect" id="Node000001" title="Declaración del T.D.A. AgendaEventos Gestión dinámica y ordenada de eventos sin solapamientos." alt="" coords="5,5,220,75"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="37,196,95,221"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="87,76,74,99,63,123,60,153,63,182,57,183,54,153,58,122,69,96,83,73"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="134,196,214,221"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="141,73,156,96,167,122,174,153,177,182,172,182,169,154,162,124,151,99,137,76"/>
+<area shape="rect" id="Node000004" href="$evento_8h.html" title="Declaración del T.D.A. Evento Representa un evento académico con nombre, día y franja horaria." alt="" coords="73,123,152,148"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="115,75,115,109,110,109,110,75"/>
+<area shape="poly" id="edge4_Node000004_Node000002" title=" " alt="" coords="107,150,83,186,79,183,103,147"/>
+<area shape="poly" id="edge5_Node000004_Node000003" title=" " alt="" coords="125,147,157,184,153,187,121,150"/>
+</map>

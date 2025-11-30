@@ -1,0 +1,12 @@
+Clase de Matemáticas,1,8.5,10.0
+Laboratorio de Física,1,10.0,12.0
+Tutoría con Ana,1,12.5,13.0
+Inglés B2,2,9.0,10.5
+Reunión de proyecto RI,2,11.0,12.0
+Clase de Programación,3,8.0,10.0
+Práctica de Estructuras de Datos,3,10.5,12.5
+Historia de España,4,9.0,11.0
+Biología y Geología,4,11.5,13.0
+Química,5,8.0,9.5
+Educación Física,5,10.0,11.5
+Reunión de grupo de trabajo,5,12.0,13.0

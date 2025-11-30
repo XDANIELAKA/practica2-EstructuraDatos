@@ -1,0 +1,15 @@
+<map id="AgendaEventos::anadirEvento" name="AgendaEventos::anadirEvento">
+<area shape="rect" id="Node000001" title="Añade un evento a la agenda." alt="" coords="5,56,223,81"/>
+<area shape="rect" id="Node000002" href="$classEvento.html#aa288bf2788b4906e2704c6acbfc1effa" title=" " alt="" coords="319,31,467,56"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="223,56,305,49,306,54,223,61"/>
+<area shape="rect" id="Node000003" href="$classAgendaEventos.html#a7d2a3db62cf9634f777450ae437209e3" title="Inserta un evento manteniendo orden por (día, hora_inicio)." alt="" coords="271,80,515,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="223,75,257,78,257,84,223,81"/>
+<area shape="rect" id="Node000004" href="$classEvento.html#ada9e824d608a68594b316d74f6d0ea84" title=" " alt="" coords="639,5,757,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="470,77,514,65,537,52,562,40,624,24,626,29,564,44,540,57,516,70,472,82"/>
+<area shape="rect" id="Node000005" href="$classEvento.html#afc9929cb119e7355e2e09bbaf2239362" title=" " alt="" coords="617,55,779,80"/>
+<area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="515,80,603,73,603,78,515,85"/>
+<area shape="rect" id="Node000006" href="$classAgendaEventos.html#aa64091f3d362212744cc7fc0ac17e2c0" title="Comprueba si un evento se solapa con alguno ya almacenado." alt="" coords="563,104,833,129"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="515,100,549,102,549,108,515,105"/>
+<area shape="rect" id="Node000007" href="$classAgendaEventos.html#a70db1c138d34b61bd22f79574946dbf4" title="Reserva un nuevo tamaño de almacenamiento." alt="" coords="605,153,791,179"/>
+<area shape="poly" id="edge6_Node000003_Node000007" title=" " alt="" coords="435,103,563,138,610,148,609,153,562,143,434,108"/>
+</map>

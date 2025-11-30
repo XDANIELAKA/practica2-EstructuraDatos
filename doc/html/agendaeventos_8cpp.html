@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Gestor de Agenda de Eventos: Referencia del archivo /home/dani04mi/Documentos/Uni/4º/ED/practica/p2/martinez_infantes_daniel_p2/src/agendaeventos.cpp</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Gestor de Agenda de Eventos<span id="projectnumber">&#160;1.0</span>
+   </div>
+   <div id="projectbrief">Implementación de los TDAs Evento y AgendaEventos</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle"><div class="title">Referencia del archivo agendaeventos.cpp</div></div>
+</div><!--header-->
+<div class="contents">
+
+<p>Implementación del T.D.A. <a class="el" href="classAgendaEventos.html" title="T.D.A. AgendaEventos.">AgendaEventos</a>.  
+<a href="#details">Más...</a></p>
+<div class="textblock"><code>#include &quot;<a class="el" href="agendaeventos_8h_source.html">agendaeventos.h</a>&quot;</code><br />
+<code>#include &lt;fstream&gt;</code><br />
+<code>#include &lt;sstream&gt;</code><br />
+<code>#include &lt;cassert&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Gráfico de dependencias incluidas en agendaeventos.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="agendaeventos_8cpp__incl.png" border="0" usemap="#a_2home_2dani04mi_2Documentos_2Uni_24_xC2_xBA_2ED_2practica_2p2_2martinez__infantes__daniel__p2_2src_2agendaeventos_8cpp" alt=""/></div>
+<map name="a_2home_2dani04mi_2Documentos_2Uni_24_xC2_xBA_2ED_2practica_2p2_2martinez__infantes__daniel__p2_2src_2agendaeventos_8cpp" id="a_2home_2dani04mi_2Documentos_2Uni_24_xC2_xBA_2ED_2practica_2p2_2martinez__infantes__daniel__p2_2src_2agendaeventos_8cpp">
+<area shape="rect" title="Implementación del T.D.A. AgendaEventos." alt="" coords="151,5,366,75"/>
+<area shape="rect" href="agendaeventos_8h.html" title="Declaración del T.D.A. AgendaEventos Gestión dinámica y ordenada de eventos sin solapamientos." alt="" coords="14,123,149,148"/>
+<area shape="poly" title=" " alt="" coords="196,77,117,118,114,114,193,72"/>
+<area shape="rect" title=" " alt="" coords="173,123,246,148"/>
+<area shape="poly" title=" " alt="" coords="243,76,224,112,220,109,239,74"/>
+<area shape="rect" title=" " alt="" coords="271,123,345,148"/>
+<area shape="poly" title=" " alt="" coords="279,74,298,109,293,112,274,76"/>
+<area shape="rect" title=" " alt="" coords="369,123,439,148"/>
+<area shape="poly" title=" " alt="" coords="313,73,376,113,373,117,310,77"/>
+<area shape="rect" title=" " alt="" coords="5,269,64,295"/>
+<area shape="poly" title=" " alt="" coords="69,150,48,170,32,197,27,227,30,256,25,256,22,227,27,195,44,167,65,146"/>
+<area shape="rect" title=" " alt="" coords="103,269,183,295"/>
+<area shape="poly" title=" " alt="" coords="97,146,118,167,136,195,144,226,146,255,141,256,139,227,131,197,114,171,94,150"/>
+<area shape="rect" href="evento_8h.html" title="Declaración del T.D.A. Evento Representa un evento académico con nombre, día y franja horaria." alt="" coords="42,196,121,221"/>
+<area shape="poly" title=" " alt="" coords="84,148,84,182,79,182,79,148"/>
+<area shape="poly" title=" " alt="" coords="76,223,52,259,48,256,71,220"/>
+<area shape="poly" title=" " alt="" coords="93,220,126,257,122,261,89,223"/>
+</map>
+</div>
+</div><a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
+<div class="textblock"><p>Implementación del T.D.A. <a class="el" href="classAgendaEventos.html" title="T.D.A. AgendaEventos.">AgendaEventos</a>. </p>
+<dl class="section author"><dt>Autor</dt><dd>Daniel Martínez Infantes </dd></dl>
+<dl class="section date"><dt>Fecha</dt><dd>2025-12-28 </dd></dl>
+<dl class="section version"><dt>Versión</dt><dd>1.0 </dd></dl>
+</div></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado por&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
