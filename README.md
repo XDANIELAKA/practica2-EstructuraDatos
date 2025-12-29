@@ -14,16 +14,16 @@ El programa permite cargar eventos desde un fichero, añadir, eliminar, buscar, 
 # 1. Estructura del proyecto
 
 ├── include/
-│ ├── evento.h
-│ └── agendaeventos.h
+│   ├── evento.h
+│   └── agendaeventos.h
 ├── src/
-│ ├── evento.cpp
-│ ├── agendaeventos.cpp
-│ └── main.cpp
+│   ├── evento.cpp
+│   ├── agendaeventos.cpp
+│   └── main.cpp
 ├── datos/
-│ ├── agenda.txt
-│ ├── agenda_solapamientos.txt
-│ └── agenda_errores_formato.txt
+│   ├── agenda.txt
+│   ├── agenda_solapamientos.txt
+│   └── agenda_errores_formato.txt
 ├── build/
 ├── Makefile
 └── README.md
