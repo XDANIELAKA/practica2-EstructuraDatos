@@ -13,6 +13,7 @@ El programa permite cargar eventos desde un fichero, añadir, eliminar, buscar, 
 
 # 1. Estructura del proyecto
 
+.
 ├── include/
 │   ├── evento.h
 │   └── agendaeventos.h
