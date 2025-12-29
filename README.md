@@ -12,10 +12,8 @@ El programa permite cargar eventos desde un fichero, añadir, eliminar, buscar, 
 ---
 
 # 1. Estructura del proyecto
-
-.
-├── include/
-│   ├── evento.h
+```
+├── include/  ├── evento.h
 │   └── agendaeventos.h
 ├── src/
 │   ├── evento.cpp
@@ -29,7 +27,10 @@ El programa permite cargar eventos desde un fichero, añadir, eliminar, buscar, 
 ├── Makefile
 └── README.md
 
----
+-
+```
+
+--
 
 # 2. Compilación y ejecución
 
